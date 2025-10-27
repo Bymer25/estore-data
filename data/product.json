@@ -175,6 +175,131 @@
     }
   },
   {
+    "id": "sp-011",
+    "name": "Galaxy Ultra 23",
+    "slug": "galaxy-ultra-23",
+    "price": 1100,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 156,
+    "shortDescription": "Премиальный смартфон с улучшенной камерой и стилусом.",
+    "description": "6.8\" Dynamic AMOLED 2X 120Hz, 512 ГБ, 12 ГБ RAM, 5000 мА·ч, камеры 200+12+10 Мп, S-Pen, 5G, защита IP68.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
+    ],
+    "categories": ["Смартфоны"],
+    "tags": ["premium", "camera", "spen", "5g"],
+    "specs": {
+      "Экран": "6.8\" Dynamic AMOLED 2X 120 Гц",
+      "Память": "512 ГБ",
+      "RAM": "12 ГБ",
+      "Камеры": "200+12+10 Мп",
+      "Батарея": "5000 мА·ч",
+      "Особенности": "S-Pen встроенный"
+    }
+  },
+  {
+    "id": "sp-012",
+    "name": "iPhone 15 Pro",
+    "slug": "iphone-15-pro",
+    "price": 1300,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 203,
+    "shortDescription": "Мощный смартфон от Apple с титановым корпусом.",
+    "description": "6.1\" Super Retina XDR, 256 ГБ, 8 ГБ RAM, камеры 48+12+12 Мп, чип A17 Pro, 5G, Face ID, защита IP68.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
+    ],
+    "categories": ["Смартфоны"],
+    "tags": ["apple", "titanium", "faceid", "ios"],
+    "specs": {
+      "Экран": "6.1\" Super Retina XDR",
+      "Память": "256 ГБ",
+      "RAM": "8 ГБ",
+      "Процессор": "A17 Pro",
+      "Камеры": "48+12+12 Мп",
+      "Материал": "Титан"
+    }
+  },
+  {
+    "id": "sp-013",
+    "name": "Poco X6 Pro",
+    "slug": "poco-x6-pro",
+    "price": 450,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.4,
+    "reviewsCount": 78,
+    "shortDescription": "Игровой смартфон с мощным процессором и быстрой зарядкой.",
+    "description": "6.67\" AMOLED 120Hz, 256 ГБ, 12 ГБ RAM, 5000 мА·ч, 67W зарядка, камеры 64+8+2 Мп, 5G.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
+    ],
+    "categories": ["Смартфоны"],
+    "tags": ["gaming", "fast-charging", "amoled", "budget"],
+    "specs": {
+      "Экран": "6.67\" AMOLED 120 Гц",
+      "Память": "256 ГБ",
+      "RAM": "12 ГБ",
+      "Батарея": "5000 мА·ч",
+      "Зарядка": "67W",
+      "Процессор": "Dimensity 8300"
+    }
+  },
+  {
+    "id": "sp-014",
+    "name": "Google Pixel 8",
+    "slug": "google-pixel-8",
+    "price": 750,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.6,
+    "reviewsCount": 94,
+    "shortDescription": "Смартфон с лучшей камерой и чистым Android.",
+    "description": "6.2\" OLED 120Hz, 128 ГБ, 8 ГБ RAM, 4575 мА·ч, камеры 50+12 Мп, Tensor G3, 7 лет обновлений.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
+    ],
+    "categories": ["Смартфоны"],
+    "tags": ["android", "camera", "google", "clean-os"],
+    "specs": {
+      "Экран": "6.2\" OLED 120 Гц",
+      "Память": "128 ГБ",
+      "RAM": "8 ГБ",
+      "Процессор": "Tensor G3",
+      "Камеры": "50+12 Мп",
+      "Обновления": "7 лет ОС"
+    }
+  },
+  {
+    "id": "sp-015",
+    "name": "OnePlus 12R",
+    "slug": "oneplus-12r",
+    "price": 600,
+    "currency": "RUB",
+    "inStock": false,
+    "rating": 4.7,
+    "reviewsCount": 67,
+    "shortDescription": "Смартфон с быстрой зарядкой и плавным дисплеем.",
+    "description": "6.78\" Fluid AMOLED 120Hz, 256 ГБ, 16 ГБ RAM, 5500 мА·ч, 100W зарядка, камеры 50+8+2 Мп, OxygenOS.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
+    ],
+    "categories": ["Смартфоны"],
+    "tags": ["fast-charging", "oxygenos", "smooth", "value"],
+    "specs": {
+      "Экран": "6.78\" Fluid AMOLED 120 Гц",
+      "Память": "256 ГБ",
+      "RAM": "16 ГБ",
+      "Батарея": "5500 мА·ч",
+      "Зарядка": "100W",
+      "ОС": "OxygenOS 14"
+    }
+  },
+  {
     "id": "wh-003",
     "name": "Wireless Headphones",
     "slug": "wireless-headphones",
@@ -360,183 +485,5 @@
       "Интерфейс": "USB-C",
       "Корпус": "Алюминий"
     }
-  },
-  [
-  {
-    "id": "spx-002",
-    "name": "Smartphone X",
-    "slug": "smartphone-x",
-    "price": 850,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 89,
-    "shortDescription": "Флагманский смартфон с OLED-дисплеем и высокой скоростью.",
-    "description": "6.5\" OLED 120 Гц, 256 ГБ, 8 ГБ RAM, 4800 мА·ч, камеры 50+12+10 Мп, 5G, NFC, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["oled", "120hz", "camera", "5g"],
-    "specs": {
-      "Экран": "6.5\" OLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "8 ГБ",
-      "Камеры": "50+12+10 Мп",
-      "Батарея": "4800 мА·ч",
-      "SIM": "Dual nanoSIM + eSIM"
-    }
-  },
-  {
-    "id": "sp-011",
-    "name": "Galaxy Ultra 23",
-    "slug": "galaxy-ultra-23",
-    "price": 1100,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 156,
-    "shortDescription": "Премиальный смартфон с улучшенной камерой и стилусом.",
-    "description": "6.8\" Dynamic AMOLED 2X 120Hz, 512 ГБ, 12 ГБ RAM, 5000 мА·ч, камеры 200+12+10 Мп, S-Pen, 5G, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["premium", "camera", "spen", "5g"],
-    "specs": {
-      "Экран": "6.8\" Dynamic AMOLED 2X 120 Гц",
-      "Память": "512 ГБ",
-      "RAM": "12 ГБ",
-      "Камеры": "200+12+10 Мп",
-      "Батарея": "5000 мА·ч",
-      "Особенности": "S-Pen встроенный"
-    }
-  },
-  {
-    "id": "sp-012",
-    "name": "iPhone 15 Pro",
-    "slug": "iphone-15-pro",
-    "price": 1300,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 203,
-    "shortDescription": "Мощный смартфон от Apple с титановым корпусом.",
-    "description": "6.1\" Super Retina XDR, 256 ГБ, 8 ГБ RAM, камеры 48+12+12 Мп, чип A17 Pro, 5G, Face ID, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["apple", "titanium", "faceid", "ios"],
-    "specs": {
-      "Экран": "6.1\" Super Retina XDR",
-      "Память": "256 ГБ",
-      "RAM": "8 ГБ",
-      "Процессор": "A17 Pro",
-      "Камеры": "48+12+12 Мп",
-      "Материал": "Титан"
-    }
-  },
-  {
-    "id": "sp-013",
-    "name": "Poco X6 Pro",
-    "slug": "poco-x6-pro",
-    "price": 450,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 78,
-    "shortDescription": "Игровой смартфон с мощным процессором и быстрой зарядкой.",
-    "description": "6.67\" AMOLED 120Hz, 256 ГБ, 12 ГБ RAM, 5000 мА·ч, 67W зарядка, камеры 64+8+2 Мп, 5G.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["gaming", "fast-charging", "amoled", "budget"],
-    "specs": {
-      "Экран": "6.67\" AMOLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "12 ГБ",
-      "Батарея": "5000 мА·ч",
-      "Зарядка": "67W",
-      "Процессор": "Dimensity 8300"
-    }
-  },
-  {
-    "id": "sp-014",
-    "name": "Google Pixel 8",
-    "slug": "google-pixel-8",
-    "price": 750,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 94,
-    "shortDescription": "Смартфон с лучшей камерой и чистым Android.",
-    "description": "6.2\" OLED 120Hz, 128 ГБ, 8 ГБ RAM, 4575 мА·ч, камеры 50+12 Мп, Tensor G3, 7 лет обновлений.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["android", "camera", "google", "clean-os"],
-    "specs": {
-      "Экран": "6.2\" OLED 120 Гц",
-      "Память": "128 ГБ",
-      "RAM": "8 ГБ",
-      "Процессор": "Tensor G3",
-      "Камеры": "50+12 Мп",
-      "Обновления": "7 лет ОС"
-    }
-  },
-  {
-    "id": "sp-015",
-    "name": "OnePlus 12R",
-    "slug": "oneplus-12r",
-    "price": 600,
-    "currency": "RUB",
-    "inStock": false,
-    "rating": 4.7,
-    "reviewsCount": 67,
-    "shortDescription": "Смартфон с быстрой зарядкой и плавным дисплеем.",
-    "description": "6.78\" Fluid AMOLED 120Hz, 256 ГБ, 16 ГБ RAM, 5500 мА·ч, 100W зарядка, камеры 50+8+2 Мп, OxygenOS.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["fast-charging", "oxygenos", "smooth", "value"],
-    "specs": {
-      "Экран": "6.78\" Fluid AMOLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "16 ГБ",
-      "Батарея": "5500 мА·ч",
-      "Зарядка": "100W",
-      "ОС": "OxygenOS 14"
-    }
-  },
-  {
-    "id": "wh-003",
-    "name": "Wireless Headphones",
-    "slug": "wireless-headphones",
-    "price": 210,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 201,
-    "shortDescription": "Беспроводные наушники с шумоподавлением и чистым звуком.",
-    "description": "Активное шумоподавление (ANC), Bluetooth 5.3, до 30 часов работы, сенсорное управление, чехол-зарядка USB-C.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["bluetooth", "anc", "wireless"],
-    "specs": {
-      "Тип": "Накладные",
-      "Время работы": "30 ч",
-      "Шумоподавление": "Активное (ANC)",
-      "Bluetooth": "5.3",
-      "Вес": "250 г"
-    }
   }
 ]
-
-]
-
