@@ -417,6 +417,26 @@
       "Совместимость": "iOS / Android",
       "Вес": "40 г"
     }
-  }
-]
-
+  },
+  {
+    "id": "swz-019",
+    "name": "Apple Watch Series 9",
+    "slug": "apple-watch-series-9",
+    "price": 420,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 278,
+    "shortDescription": "Умные часы от Apple с новым чипом и функциями здоровья.",
+    "description": "Чип S9, Always-On дисплей, ЭКГ, отслеживание сна, GPS, защита до 50м.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartwatch.png"
+    ],
+    "categories": ["Гаджеты"],
+    "tags": ["apple", "health", "gps", "premium"],
+    "specs": {
+      "Экран": "1.9\" Always-On Retina",
+      "Процессор": "Apple S9",
+      "Аккумулятор": "18 часов",
+      "Защита": "WR50, IP6X",
+      "Да
