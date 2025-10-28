@@ -1,421 +1,498 @@
-[
   {
-    "id": "lp-001",
-    "name": "Laptop Pro 15",
-    "slug": "laptop-pro-15",
-    "price": 1200,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 132,
-    "shortDescription": "Мощный ноутбук для работы, учёбы и развлечений.",
-    "description": "15.6\" IPS 4K, Intel Core i7, 16 ГБ RAM, 512 ГБ SSD. Корпус алюминиевый, клавиатура с подсветкой, Wi-Fi 6E, Bluetooth 5.3.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["intel", "16gb", "4k", "wifi6"],
-    "specs": {
-      "Экран": "15.6\" IPS 3840×2160 (4K)",
-      "Процессор": "Intel Core i7-13700H",
-      "ОЗУ": "16 ГБ DDR5",
-      "SSD": "512 ГБ NVMe",
-      "Вес": "1.6 кг",
-      "ОС": "Windows 11"
-    }
-  },
-  {
-    "id": "lp-002",
-    "name": "Gaming Laptop Xtreme",
-    "slug": "gaming-laptop-xtreme",
-    "price": 1800,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 89,
-    "shortDescription": "Игровой ноутбук с RTX 4060 для максимальной производительности.",
-    "description": "16\" IPS 165Hz, Intel Core i9, 32 ГБ RAM, 1 ТБ SSD, NVIDIA RTX 4060 8GB. RGB-подсветка, система охлаждения с 4 вентиляторами.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["gaming", "rtx4060", "i9", "rgb"],
-    "specs": {
-      "Экран": "16\" IPS 165 Гц",
-      "Процессор": "Intel Core i9-13900HX",
-      "ОЗУ": "32 ГБ DDR5",
-      "SSD": "1 ТБ NVMe",
-      "Видеокарта": "NVIDIA RTX 4060 8GB",
-      "Вес": "2.3 кг"
-    }
-  },
-  {
-    "id": "lp-003",
-    "name": "UltraBook Air S",
-    "slug": "ultrabook-air-s",
-    "price": 950,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 67,
-    "shortDescription": "Сверхтонкий и лёгкий ноутбук для мобильной работы.",
-    "description": "14\" OLED 2.8K, Intel Core i5, 16 ГБ RAM, 512 ГБ SSD. Толщина всего 12 мм, вес 1.1 кг, до 14 часов автономной работы.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["ultrabook", "thin", "lightweight", "oled"],
-    "specs": {
-      "Экран": "14\" OLED 2880×1800",
-      "Процессор": "Intel Core i5-1345U",
-      "ОЗУ": "16 ГБ LPDDR5",
-      "SSD": "512 ГБ NVMe",
-      "Вес": "1.1 кг",
-      "Автономность": "14 часов"
-    }
-  },
-  {
-    "id": "lp-004",
-    "name": "Business Laptop Elite",
-    "slug": "business-laptop-elite",
-    "price": 1400,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 45,
-    "shortDescription": "Надёжный ноутбук для бизнеса с расширенной гарантией.",
-    "description": "15.6\" FHD, Intel Core i7, 16 ГБ RAM, 1 ТБ SSD, LTE модуль. Сканер отпечатков, ИК-камера для распознавания лица, защита от падения.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["business", "lte", "security", "durable"],
-    "specs": {
-      "Экран": "15.6\" FHD IPS",
-      "Процессор": "Intel Core i7-1360P",
-      "ОЗУ": "16 ГБ DDR4",
-      "SSD": "1 ТБ NVMe",
-      "Связь": "Wi-Fi 6E + LTE",
-      "Гарантия": "3 года"
-    }
-  },
-  {
-    "id": "lp-005",
-    "name": "Student Laptop Basic",
-    "slug": "student-laptop-basic",
-    "price": 600,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.2,
-    "reviewsCount": 156,
-    "shortDescription": "Доступный ноутбук для учёбы и повседневных задач.",
-    "description": "15.6\" FHD, AMD Ryzen 5, 8 ГБ RAM, 256 ГБ SSD. Эргономичная клавиатура, веб-камера с шторкой, стереодинамики.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["student", "budget", "amd", "education"],
-    "specs": {
-      "Экран": "15.6\" FHD IPS",
-      "Процессор": "AMD Ryzen 5 7530U",
-      "ОЗУ": "8 ГБ DDR4",
-      "SSD": "256 ГБ NVMe",
-      "Вес": "1.8 кг",
-      "ОС": "Windows 11 Home"
-    }
-  },
-  {
-    "id": "lp-006",
-    "name": "Creator Laptop ProArt",
-    "slug": "creator-laptop-proart",
-    "price": 2200,
-    "currency": "RUB",
-    "inStock": false,
-    "rating": 4.9,
-    "reviewsCount": 23,
-    "shortDescription": "Профессиональный ноутбук для дизайнеров и видеомонтажёров.",
-    "description": "16\" OLED 4K 120Hz, Intel Core i9, 64 ГБ RAM, 2 ТБ SSD, NVIDIA RTX 4070. Цветопередача 100% DCI-P3, Pantone Validated.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/laptop.png"
-    ],
-    "categories": ["Ноутбуки"],
-    "tags": ["creator", "oled", "rtx4070", "professional"],
-    "specs": {
-      "Экран": "16\" OLED 4K 120 Гц",
-      "Процессор": "Intel Core i9-13900H",
-      "ОЗУ": "64 ГБ DDR5",
-      "SSD": "2 ТБ NVMe",
-      "Видеокарта": "NVIDIA RTX 4070 8GB",
-      "Цветопередача": "100% DCI-P3"
-    }
-  },
-  {
-    "id": "spx-002",
-    "name": "Smartphone X",
-    "slug": "smartphone-x",
-    "price": 850,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 89,
-    "shortDescription": "Флагманский смартфон с OLED-дисплеем и высокой скоростью.",
-    "description": "6.5\" OLED 120 Гц, 256 ГБ, 8 ГБ RAM, 4800 мА·ч, камеры 50+12+10 Мп, 5G, NFC, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["oled", "120hz", "camera", "5g"],
-    "specs": {
-      "Экран": "6.5\" OLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "8 ГБ",
-      "Камеры": "50+12+10 Мп",
-      "Батарея": "4800 мА·ч",
-      "SIM": "Dual nanoSIM + eSIM"
-    }
-  },
-  {
-    "id": "sp-011",
-    "name": "Galaxy Ultra 23",
-    "slug": "galaxy-ultra-23",
-    "price": 1100,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 156,
-    "shortDescription": "Премиальный смартфон с улучшенной камерой и стилусом.",
-    "description": "6.8\" Dynamic AMOLED 2X 120Hz, 512 ГБ, 12 ГБ RAM, 5000 мА·ч, камеры 200+12+10 Мп, S-Pen, 5G, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["premium", "camera", "spen", "5g"],
-    "specs": {
-      "Экран": "6.8\" Dynamic AMOLED 2X 120 Гц",
-      "Память": "512 ГБ",
-      "RAM": "12 ГБ",
-      "Камеры": "200+12+10 Мп",
-      "Батарея": "5000 мА·ч",
-      "Особенности": "S-Pen встроенный"
-    }
-  },
-  {
-    "id": "sp-012",
-    "name": "iPhone 15 Pro",
-    "slug": "iphone-15-pro",
-    "price": 1300,
+    "id": "swz-020",
+    "name": "Apple Watch Series 9",
+    "slug": "apple-watch-series-9",
+    "price": 420,
     "currency": "RUB",
     "inStock": true,
     "rating": 4.9,
-    "reviewsCount": 203,
-    "shortDescription": "Мощный смартфон от Apple с титановым корпусом.",
-    "description": "6.1\" Super Retina XDR, 256 ГБ, 8 ГБ RAM, камеры 48+12+12 Мп, чип A17 Pro, 5G, Face ID, защита IP68.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["apple", "titanium", "faceid", "ios"],
-    "specs": {
-      "Экран": "6.1\" Super Retina XDR",
-      "Память": "256 ГБ",
-      "RAM": "8 ГБ",
-      "Процессор": "A17 Pro",
-      "Камеры": "48+12+12 Мп",
-      "Материал": "Титан"
-    }
-  },
-  {
-    "id": "sp-013",
-    "name": "Poco X6 Pro",
-    "slug": "poco-x6-pro",
-    "price": 450,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 78,
-    "shortDescription": "Игровой смартфон с мощным процессором и быстрой зарядкой.",
-    "description": "6.67\" AMOLED 120Hz, 256 ГБ, 12 ГБ RAM, 5000 мА·ч, 67W зарядка, камеры 64+8+2 Мп, 5G.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["gaming", "fast-charging", "amoled", "budget"],
-    "specs": {
-      "Экран": "6.67\" AMOLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "12 ГБ",
-      "Батарея": "5000 мА·ч",
-      "Зарядка": "67W",
-      "Процессор": "Dimensity 8300"
-    }
-  },
-  {
-    "id": "sp-014",
-    "name": "Google Pixel 8",
-    "slug": "google-pixel-8",
-    "price": 750,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 94,
-    "shortDescription": "Смартфон с лучшей камерой и чистым Android.",
-    "description": "6.2\" OLED 120Hz, 128 ГБ, 8 ГБ RAM, 4575 мА·ч, камеры 50+12 Мп, Tensor G3, 7 лет обновлений.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["android", "camera", "google", "clean-os"],
-    "specs": {
-      "Экран": "6.2\" OLED 120 Гц",
-      "Память": "128 ГБ",
-      "RAM": "8 ГБ",
-      "Процессор": "Tensor G3",
-      "Камеры": "50+12 Мп",
-      "Обновления": "7 лет ОС"
-    }
-  },
-  {
-    "id": "sp-015",
-    "name": "OnePlus 12R",
-    "slug": "oneplus-12r",
-    "price": 600,
-    "currency": "RUB",
-    "inStock": false,
-    "rating": 4.7,
-    "reviewsCount": 67,
-    "shortDescription": "Смартфон с быстрой зарядкой и плавным дисплеем.",
-    "description": "6.78\" Fluid AMOLED 120Hz, 256 ГБ, 16 ГБ RAM, 5500 мА·ч, 100W зарядка, камеры 50+8+2 Мп, OxygenOS.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartphone.png"
-    ],
-    "categories": ["Смартфоны"],
-    "tags": ["fast-charging", "oxygenos", "smooth", "value"],
-    "specs": {
-      "Экран": "6.78\" Fluid AMOLED 120 Гц",
-      "Память": "256 ГБ",
-      "RAM": "16 ГБ",
-      "Батарея": "5500 мА·ч",
-      "Зарядка": "100W",
-      "ОС": "OxygenOS 14"
-    }
-  },
-  {
-    "id": "wh-003",
-    "name": "Wireless Headphones",
-    "slug": "wireless-headphones",
-    "price": 210,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 201,
-    "shortDescription": "Беспроводные наушники с шумоподавлением и чистым звуком.",
-    "description": "Активное шумоподавление (ANC), Bluetooth 5.3, до 30 часов работы, сенсорное управление, чехол-зарядка USB-C.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["bluetooth", "anc", "wireless"],
-    "specs": {
-      "Тип": "Накладные",
-      "Время работы": "30 ч",
-      "Шумоподавление": "Активное (ANC)",
-      "Bluetooth": "5.3",
-      "Вес": "250 г"
-    }
-  },
-  {
-    "id": "wh-016",
-    "name": "AirPods Pro 3",
-    "slug": "airpods-pro-3",
-    "price": 280,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 312,
-    "shortDescription": "Беспроводные наушники с прозрачным режимом и пространственным звуком.",
-    "description": "Активное шумоподавление, прозрачный режим, пространственный звук, до 6 часов работы, зарядка MagSafe.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["apple", "noise-cancelling", "wireless", "spatial-audio"],
-    "specs": {
-      "Тип": "Вкладыши",
-      "Время работы": "6 ч (30 ч с кейсом)",
-      "Шумоподавление": "Активное Adaptive ANC",
-      "Bluetooth": "5.3",
-      "Особенности": "Пространственный звук, MagSafe"
-    }
-  },
-  {
-    "id": "wh-017",
-    "name": "Sony WH-1000XM5",
-    "slug": "sony-wh-1000xm5",
-    "price": 350,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 189,
-    "shortDescription": "Премиальные наушники с лучшим в классе шумоподавлением.",
-    "description": "Процессор V1, 30 часов работы, сенсорное управление, быстрая зарядка, голосовой помощник.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["premium", "noise-cancelling", "sony", "long-battery"],
-    "specs": {
-      "Тип": "Накладные",
-      "Время работы": "30 ч",
-      "Шумоподавление": "Активное с процессором V1",
-      "Bluetooth": "5.2",
-      "Зарядка": "3 мин = 3 ч работы"
-    }
-  },
-  {
-    "id": "wh-018",
-    "name": "Beats Studio Pro",
-    "slug": "beats-studio-pro",
-    "price": 320,
-    "currency": "RUB",
-    "inStock": false,
-    "rating": 4.6,
-    "reviewsCount": 94,
-    "shortDescription": "Стильные наушники с мощным звуком и Apple чипом.",
-    "description": "Чип Apple H1, 40 часов работы, режим прозрачности, складывающаяся конструкция.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["beats", "apple", "bass", "foldable"],
-    "specs": {
-      "Тип": "Накладные",
-      "Время работы": "40 ч",
-      "Чип": "Apple H1",
-      "Bluetooth": "5.0",
-      "Конструкция": "Складывающаяся"
-    }
-  },
-  {
-    "id": "swz-004",
-    "name": "Smartwatch Z",
-    "slug": "smartwatch-z",
-    "price": 180,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 57,
-    "shortDescription": "Стильные смарт-часы для спорта и повседневной жизни.",
-    "description": "AMOLED 1.8\", датчик пульса и SpO₂, шагомер, уведомления, Bluetooth 5.2, защита IP68, 7 дней без подзарядки.",
+    "reviewsCount": 278,
+    "shortDescription": "Умные часы от Apple с новым чипом и функциями здоровья.",
+    "description": "Чип S9, Always-On дисплей, ЭКГ, отслеживание сна, GPS, защита до 50м.",
     "images": [
       "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartwatch.png"
     ],
     "categories": ["Гаджеты"],
-    "tags": ["fitness", "bluetooth", "wearable"],
+    "tags": ["apple", "health", "gps", "premium"],
     "specs": {
-      "Экран": "1.8\" AMOLED",
-      "Аккумулятор": "300 мА·ч, 7 дней",
-      "Совместимость": "iOS / Android",
-      "Вес": "40 г"
+      "Экран": "1.9\" Always-On Retina",
+      "Процессор": "Apple S9",
+      "Аккумулятор": "18 часов",
+      "Защита": "WR50, IP6X",
+      "Функции": "ЭКГ, отслеживание сна"
+    }
+  },
+  {
+    "id": "swz-021",
+    "name": "Samsung Galaxy Watch6",
+    "slug": "samsung-galaxy-watch6",
+    "price": 290,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.7,
+    "reviewsCount": 156,
+    "shortDescription": "Смарт-часы с Wear OS и расширенными функциями здоровья.",
+    "description": "Экран 1.5\" Super AMOLED, отслеживание сна, мониторинг ЭКГ, 40 часов работы, совместимость с Android.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartwatch.png"
+    ],
+    "categories": ["Гаджеты"],
+    "tags": ["samsung", "wear-os", "health", "android"],
+    "specs": {
+      "Экран": "1.5\" Super AMOLED",
+      "ОС": "Wear OS",
+      "Аккумулятор": "40 часов",
+      "Совместимость": "Android",
+      "Функции": "ЭКГ, анализ сна"
+    }
+  },
+  {
+    "id": "swz-022",
+    "name": "Garmin Venu 3",
+    "slug": "garmin-venu-3",
+    "price": 380,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 89,
+    "shortDescription": "Спортивные часы с расширенным отслеживанием активности.",
+    "description": "AMOLED дисплей, GPS, пульсометр, отслеживание стресса, 5 дней работы, водонепроницаемость 5 ATM.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/smartwatch.png"
+    ],
+    "categories": ["Гаджеты"],
+    "tags": ["garmin", "fitness", "gps", "sports"],
+    "specs": {
+      "Экран": "1.4\" AMOLED",
+      "Аккумулятор": "5 дней",
+      "GPS": "Встроенный",
+      "Защита": "5 ATM",
+      "Функции": "Тренировки, мониторинг стресса"
+    }
+  },
+  {
+    "id": "gc-005",
+    "name": "Gaming Console",
+    "slug": "gaming-console",
+    "price": 450,
+    "currency": "RUB",
+    "inStock": false,
+    "rating": 4.9,
+    "reviewsCount": 324,
+    "shortDescription": "Игровая консоль нового поколения для ярких впечатлений.",
+    "description": "Поддержка 4K 120 Гц, SSD 1 ТБ, геймпад с тактильной отдачей, HDR, Dolby Atmos, онлайн-сервисы.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/console.png"
+    ],
+    "categories": ["Игры"],
+    "tags": ["4k", "ssd", "hdr"],
+    "specs": {
+      "Память": "1 ТБ SSD",
+      "Видео": "4K 120 Гц HDR",
+      "Контроллер": "DualSense Haptic",
+      "Сеть": "Wi-Fi 6, Bluetooth 5.2"
+    }
+  },
+  {
+    "id": "gc-023",
+    "name": "Xbox Series X",
+    "slug": "xbox-series-x",
+    "price": 500,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 267,
+    "shortDescription": "Мощная игровая консоль с поддержкой 4K и Game Pass.",
+    "description": "12 ТФлопс, 4K 120fps, 1 ТБ SSD, обратная совместимость, Xbox Game Pass, Dolby Vision.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/console.png"
+    ],
+    "categories": ["Игры"],
+    "tags": ["xbox", "4k", "gamepass", "powerful"],
+    "specs": {
+      "Память": "1 ТБ SSD",
+      "Производительность": "12 ТФлопс",
+      "Видео": "4K 120fps",
+      "Особенности": "Xbox Game Pass"
+    }
+  },
+  {
+    "id": "gc-024",
+    "name": "Nintendo Switch OLED",
+    "slug": "nintendo-switch-oled",
+    "price": 350,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.7,
+    "reviewsCount": 412,
+    "shortDescription": "Гибридная консоль с OLED-экраном для игр дома и в пути.",
+    "description": "7\" OLED экран, 64 ГБ памяти, портативный и TV режим, Joy-Con контроллеры, поддержка локального мультиплеера.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/console.png"
+    ],
+    "categories": ["Игры"],
+    "tags": ["nintendo", "portable", "oled", "family"],
+    "specs": {
+      "Экран": "7\" OLED",
+      "Память": "64 ГБ",
+      "Режимы": "Портативный, TV, настольный",
+      "Контроллеры": "Joy-Con"
+    }
+  },
+  {
+    "id": "gc-025",
+    "name": "PlayStation 5 Slim",
+    "slug": "playstation-5-slim",
+    "price": 480,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 189,
+    "shortDescription": "Компактная версия PS5 с улучшенной эффективностью.",
+    "description": "825 ГБ SSD, 4K 120Hz, тактильная отдача, адаптивные триггеры, обратная совместимость с PS4.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/console.png"
+    ],
+    "categories": ["Игры"],
+    "tags": ["playstation", "slim", "4k", "exclusive"],
+    "specs": {
+      "Память": "825 ГБ SSD",
+      "Видео": "4K 120Hz",
+      "Контроллер": "DualSense",
+      "Совместимость": "PS4 игры"
+    }
+  },
+  {
+    "id": "tv4k-006",
+    "name": "4K Ultra TV 55\"",
+    "slug": "4k-ultra-tv-55",
+    "price": 1000,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.6,
+    "reviewsCount": 51,
+    "shortDescription": "Телевизор 4K Ultra HD для полного погружения.",
+    "description": "OLED 55\" 120 Гц, Google TV, HDMI 2.1 (x4), Dolby Vision, Wi-Fi 6.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tv.png"
+    ],
+    "categories": ["TV"],
+    "tags": ["oled", "120hz", "google-tv"],
+    "specs": {
+      "Диагональ": "55\"",
+      "Частота": "120 Гц",
+      "ОС": "Google TV",
+      "HDMI": "4× 2.1",
+      "Звук": "Dolby Atmos"
+    }
+  },
+  {
+    "id": "tv4k-026",
+    "name": "Samsung QLED 65\"",
+    "slug": "samsung-qled-65",
+    "price": 1300,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.7,
+    "reviewsCount": 94,
+    "shortDescription": "QLED телевизор с квантовыми точками и HDR10+.",
+    "description": "65\" QLED 4K, Quantum HDR, 144Hz, Tizen OS, Object Tracking Sound, Gaming Hub.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tv.png"
+    ],
+    "categories": ["TV"],
+    "tags": ["qled", "samsung", "hdr10", "gaming"],
+    "specs": {
+      "Диагональ": "65\"",
+      "Технология": "QLED",
+      "Частота": "144 Гц",
+      "HDR": "Quantum HDR",
+      "ОС": "Tizen"
+    }
+  },
+  {
+    "id": "tv4k-027",
+    "name": "LG NanoCell 75\"",
+    "slug": "lg-nanocell-75",
+    "price": 1500,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.5,
+    "reviewsCount": 67,
+    "shortDescription": "Большой телевизор с технологией NanoCell для чистых цветов.",
+    "description": "75\" NanoCell 4K, 120Hz, webOS, AI Sound Pro, Filmmaker Mode, HDMI 2.1.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tv.png"
+    ],
+    "categories": ["TV"],
+    "tags": ["nanocell", "lg", "big-screen", "webos"],
+    "specs": {
+      "Диагональ": "75\"",
+      "Технология": "NanoCell",
+      "Частота": "120 Гц",
+      "ОС": "webOS",
+      "Звук": "AI Sound Pro"
+    }
+  },
+  {
+    "id": "tv4k-028",
+    "name": "Sony Bravia 85\"",
+    "slug": "sony-bravia-85",
+    "price": 2200,
+    "currency": "RUB",
+    "inStock": false,
+    "rating": 4.8,
+    "reviewsCount": 42,
+    "shortDescription": "Флагманский телевизор с процессором Cognitive Processor XR.",
+    "description": "85\" 4K HDR, Cognitive Processor XR, Acoustic Surface Audio+, Google TV, IMAX Enhanced.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tv.png"
+    ],
+    "categories": ["TV"],
+    "tags": ["sony", "flagship", "cognitive-processor", "imax"],
+    "specs": {
+      "Диагональ": "85\"",
+      "Процессор": "Cognitive Processor XR",
+      "HDR": "Dolby Vision, HDR10",
+      "ОС": "Google TV",
+      "Звук": "Acoustic Surface Audio+"
+    }
+  },
+  {
+    "id": "tb-007",
+    "name": "Tablet Air",
+    "slug": "tablet-air",
+    "price": 650,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.3,
+    "reviewsCount": 76,
+    "shortDescription": "Лёгкий планшет для учёбы и развлечений.",
+    "description": "Экран 11\" IPS, 128 ГБ памяти, 8 ГБ RAM, USB-C, Wi-Fi 6, Bluetooth 5.2, до 10 часов работы.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["wifi6", "usb-c", "study"],
+    "specs": {
+      "Экран": "11\" IPS",
+      "Память": "128 ГБ",
+      "RAM": "8 ГБ",
+      "Батарея": "7500 мА·ч",
+      "Вес": "460 г"
+    }
+  },
+  {
+    "id": "tb-029",
+    "name": "iPad Pro 12.9\"",
+    "slug": "ipad-pro-12-9",
+    "price": 1100,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 203,
+    "shortDescription": "Профессиональный планшет с чипом M2 и дисплеем Liquid Retina XDR.",
+    "description": "12.9\" Liquid Retina XDR, чип M2, 256 ГБ, поддержка Apple Pencil 2, Magic Keyboard, 5G.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["ipad", "m2", "professional", "apple-pencil"],
+    "specs": {
+      "Экран": "12.9\" Liquid Retina XDR",
+      "Процессор": "Apple M2",
+      "Память": "256 ГБ",
+      "Совместимость": "Apple Pencil 2",
+      "Связь": "Wi-Fi 6E, 5G"
+    }
+  },
+  {
+    "id": "tb-030",
+    "name": "Samsung Tab S9 Ultra",
+    "slug": "samsung-tab-s9-ultra",
+    "price": 950,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.7,
+    "reviewsCount": 134,
+    "shortDescription": "Мощный Android планшет с большим AMOLED экраном.",
+    "description": "14.6\" Dynamic AMOLED 2X, Snapdragon 8 Gen 2, 12 ГБ RAM, 512 ГБ, S-Pen в комплекте, защита IP68.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["samsung", "amoled", "s-pen", "android"],
+    "specs": {
+      "Экран": "14.6\" Dynamic AMOLED 2X",
+      "Процессор": "Snapdragon 8 Gen 2",
+      "RAM": "12 ГБ",
+      "Память": "512 ГБ",
+      "Защита": "IP68"
+    }
+  },
+  {
+    "id": "tb-031",
+    "name": "Lenovo Tab P12",
+    "slug": "lenovo-tab-p12",
+    "price": 500,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.4,
+    "reviewsCount": 89,
+    "shortDescription": "Бюджетный планшет с большим экраном для работы и развлечений.",
+    "description": "12.7\" IPS, MediaTek Helio G99, 8 ГБ RAM, 256 ГБ, 4 динамика, 10200 мА·ч, Android 13.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["lenovo", "budget", "big-screen", "android"],
+    "specs": {
+      "Экран": "12.7\" IPS",
+      "Процессор": "MediaTek Helio G99",
+      "RAM": "8 ГБ",
+      "Память": "256 ГБ",
+      "Батарея": "10200 мА·ч"
+    }
+  },
+  {
+    "id": "gm-009",
+    "name": "Gaming Mouse RGB",
+    "slug": "gaming-mouse-rgb",
+    "price": 80,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.2,
+    "reviewsCount": 34,
+    "shortDescription": "Игровая мышь с RGB-подсветкой и высокой точностью.",
+    "description": "Сенсор 16000 DPI, 7 программируемых кнопок, RGB-подсветка, провод 1.8 м.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/mouse.png"
+    ],
+    "categories": ["Периферия"],
+    "tags": ["gaming", "rgb", "mouse"],
+    "specs": {
+      "DPI": "16000",
+      "Кнопки": "7",
+      "Кабель": "1.8 м",
+      "Интерфейс": "USB 2.0"
+    }
+  },
+  {
+    "id": "gm-032",
+    "name": "Razer DeathAdder V3",
+    "slug": "razer-deathadder-v3",
+    "price": 120,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 156,
+    "shortDescription": "Эргономичная игровая мышь с оптическим сенсором Focus Pro 30K.",
+    "description": "Сенсор 30000 DPI, 5 кнопок, вес 58г, проводной, Razer Optical Switches, 8K Hz опрос.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/mouse.png"
+    ],
+    "categories": ["Периферия"],
+    "tags": ["razer", "esports", "lightweight", "optical"],
+    "specs": {
+      "DPI": "30000",
+      "Вес": "58 г",
+      "Частота опроса": "8000 Hz",
+      "Кнопки": "5",
+      "Переключатели": "Razer Optical"
+    }
+  },
+  {
+    "id": "gm-033",
+    "name": "Logitech G Pro X Superlight",
+    "slug": "logitech-g-pro-x-superlight",
+    "price": 140,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 278,
+    "shortDescription": "Беспроводная игровая мышь для киберспорта с героическим весом.",
+    "description": "Вес 63г, беспроводная, сенсор HERO 25K, 70 часов работы, Lightspeed технология, 5 кнопок.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/mouse.png"
+    ],
+    "categories": ["Периферия"],
+    "tags": ["logitech", "wireless", "esports", "lightweight"],
+    "specs": {
+      "DPI": "25600",
+      "Вес": "63 г",
+      "Тип": "Беспроводная",
+      "Батарея": "70 часов",
+      "Технология": "Lightspeed"
+    }
+  },
+  {
+    "id": "gm-034",
+    "name": "SteelSeries Rival 5",
+    "slug": "steelseries-rival-5",
+    "price": 90,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.5,
+    "reviewsCount": 112,
+    "shortDescription": "Универсальная игровая мышь с 9 программируемыми кнопками.",
+    "description": "9 программируемых кнопок, RGB-подсветка Prism, сенсор TrueMove Air, быстрая зарядка, 18 часов работы.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/mouse.png"
+    ],
+    "categories": ["Периферия"],
+    "tags": ["steelseries", "rgb", "programmable", "wireless"],
+    "specs": {
+      "DPI": "18000",
+      "Кнопки": "9 программируемых",
+      "Тип": "Беспроводная",
+      "Батарея": "18 часов",
+      "Подсветка": "Prism RGB"
+    }
+  },
+  {
+    "id": "mk-010",
+    "name": "Mechanical Keyboard",
+    "slug": "mechanical-keyboard",
+    "price": 150,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 121,
+    "shortDescription": "Механическая клавиатура с RGB-подсветкой и плавным ходом клавиш.",
+    "description": "Переключатели Red, RGB-подсветка, алюминиевый корпус, USB-C, съёмный кабель, 100% Anti-Ghosting.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/keyboard.png"
+    ],
+    "categories": ["Периферия"],
+    "tags": ["keyboard", "rgb", "gaming"],
+    "specs": {
+      "Тип переключателей": "Red (линейные)",
+      "Подсветка": "RGB",
+      "Интерфейс": "USB-C",
+      "Корпус": "Алюминий"
+    }
+  },
+  {
+    "id": "bs-008",
+    "name": "Bluetooth Speaker",
+    "slug": "bluetooth-speaker",
+    "price": 140,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.5,
+    "reviewsCount": 98,
+    "shortDescription": "Компактная колонка с мощным и чистым звуком.",
+    "description": "40 Вт, стерео, Bluetooth 5.3, влагозащита IPX6, до 20 ч работы, USB-C зарядка.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/speaker.png"
+    ],
+    "categories": ["Аудио"],
+    "tags": ["bluetooth", "speaker", "portable"],
+    "specs": {
+      "Мощность": "40 Вт",
+      "Bluetooth": "5.3",
+      "Автономность": "20 ч",
+      "Влагозащита": "IPX6"
     }
   }
 ]
