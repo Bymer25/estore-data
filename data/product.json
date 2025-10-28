@@ -324,6 +324,78 @@
     }
   },
   {
+    "id": "wh-016",
+    "name": "AirPods Pro 3",
+    "slug": "airpods-pro-3",
+    "price": 280,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 312,
+    "shortDescription": "Беспроводные наушники с прозрачным режимом и пространственным звуком.",
+    "description": "Активное шумоподавление, прозрачный режим, пространственный звук, до 6 часов работы, зарядка MagSafe.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
+    ],
+    "categories": ["Аудио"],
+    "tags": ["apple", "noise-cancelling", "wireless", "spatial-audio"],
+    "specs": {
+      "Тип": "Вкладыши",
+      "Время работы": "6 ч (30 ч с кейсом)",
+      "Шумоподавление": "Активное Adaptive ANC",
+      "Bluetooth": "5.3",
+      "Особенности": "Пространственный звук, MagSafe"
+    }
+  },
+  {
+    "id": "wh-017",
+    "name": "Sony WH-1000XM5",
+    "slug": "sony-wh-1000xm5",
+    "price": 350,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 189,
+    "shortDescription": "Премиальные наушники с лучшим в классе шумоподавлением.",
+    "description": "Процессор V1, 30 часов работы, сенсорное управление, быстрая зарядка, голосовой помощник.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
+    ],
+    "categories": ["Аудио"],
+    "tags": ["premium", "noise-cancelling", "sony", "long-battery"],
+    "specs": {
+      "Тип": "Накладные",
+      "Время работы": "30 ч",
+      "Шумоподавление": "Активное с процессором V1",
+      "Bluetooth": "5.2",
+      "Зарядка": "3 мин = 3 ч работы"
+    }
+  },
+  {
+    "id": "wh-018",
+    "name": "Beats Studio Pro",
+    "slug": "beats-studio-pro",
+    "price": 320,
+    "currency": "RUB",
+    "inStock": false,
+    "rating": 4.6,
+    "reviewsCount": 94,
+    "shortDescription": "Стильные наушники с мощным звуком и Apple чипом.",
+    "description": "Чип Apple H1, 40 часов работы, режим прозрачности, складывающаяся конструкция.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/headphones.png"
+    ],
+    "categories": ["Аудио"],
+    "tags": ["beats", "apple", "bass", "foldable"],
+    "specs": {
+      "Тип": "Накладные",
+      "Время работы": "40 ч",
+      "Чип": "Apple H1",
+      "Bluetooth": "5.0",
+      "Конструкция": "Складывающаяся"
+    }
+  },
+  {
     "id": "swz-004",
     "name": "Smartwatch Z",
     "slug": "smartwatch-z",
@@ -345,145 +417,6 @@
       "Совместимость": "iOS / Android",
       "Вес": "40 г"
     }
-  },
-  {
-    "id": "gc-005",
-    "name": "Gaming Console",
-    "slug": "gaming-console",
-    "price": 450,
-    "currency": "RUB",
-    "inStock": false,
-    "rating": 4.9,
-    "reviewsCount": 324,
-    "shortDescription": "Игровая консоль нового поколения для ярких впечатлений.",
-    "description": "Поддержка 4K 120 Гц, SSD 1 ТБ, геймпад с тактильной отдачей, HDR, Dolby Atmos, онлайн-сервисы.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/console.png"
-    ],
-    "categories": ["Игры"],
-    "tags": ["4k", "ssd", "hdr"],
-    "specs": {
-      "Память": "1 ТБ SSD",
-      "Видео": "4K 120 Гц HDR",
-      "Контроллер": "DualSense Haptic",
-      "Сеть": "Wi-Fi 6, Bluetooth 5.2"
-    }
-  },
-  {
-    "id": "tv4k-006",
-    "name": "4K Ultra TV 55\"",
-    "slug": "4k-ultra-tv-55",
-    "price": 1000,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 51,
-    "shortDescription": "Телевизор 4K Ultra HD для полного погружения.",
-    "description": "OLED 55\" 120 Гц, Google TV, HDMI 2.1 (x4), Dolby Vision, Wi-Fi 6.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tv.png"
-    ],
-    "categories": ["TV"],
-    "tags": ["oled", "120hz", "google-tv"],
-    "specs": {
-      "Диагональ": "55\"",
-      "Частота": "120 Гц",
-      "ОС": "Google TV",
-      "HDMI": "4× 2.1",
-      "Звук": "Dolby Atmos"
-    }
-  },
-  {
-    "id": "tb-007",
-    "name": "Tablet Air",
-    "slug": "tablet-air",
-    "price": 650,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.3,
-    "reviewsCount": 76,
-    "shortDescription": "Лёгкий планшет для учёбы и развлечений.",
-    "description": "Экран 11\" IPS, 128 ГБ памяти, 8 ГБ RAM, USB-C, Wi-Fi 6, Bluetooth 5.2, до 10 часов работы.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
-    ],
-    "categories": ["Планшеты"],
-    "tags": ["wifi6", "usb-c", "study"],
-    "specs": {
-      "Экран": "11\" IPS",
-      "Память": "128 ГБ",
-      "RAM": "8 ГБ",
-      "Батарея": "7500 мА·ч",
-      "Вес": "460 г"
-    }
-  },
-  {
-    "id": "bs-008",
-    "name": "Bluetooth Speaker",
-    "slug": "bluetooth-speaker",
-    "price": 140,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 98,
-    "shortDescription": "Компактная колонка с мощным и чистым звуком.",
-    "description": "40 Вт, стерео, Bluetooth 5.3, влагозащита IPX6, до 20 ч работы, USB-C зарядка.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/speaker.png"
-    ],
-    "categories": ["Аудио"],
-    "tags": ["bluetooth", "speaker", "portable"],
-    "specs": {
-      "Мощность": "40 Вт",
-      "Bluetooth": "5.3",
-      "Автономность": "20 ч",
-      "Влагозащита": "IPX6"
-    }
-  },
-  {
-    "id": "gm-009",
-    "name": "Gaming Mouse RGB",
-    "slug": "gaming-mouse-rgb",
-    "price": 80,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.2,
-    "reviewsCount": 34,
-    "shortDescription": "Игровая мышь с RGB-подсветкой и высокой точностью.",
-    "description": "Сенсор 16000 DPI, 7 программируемых кнопок, RGB-подсветка, провод 1.8 м.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/mouse.png"
-    ],
-    "categories": ["Периферия"],
-    "tags": ["gaming", "rgb", "mouse"],
-    "specs": {
-      "DPI": "16000",
-      "Кнопки": "7",
-      "Кабель": "1.8 м",
-      "Интерфейс": "USB 2.0"
-    }
-  },
-  {
-    "id": "mk-010",
-    "name": "Mechanical Keyboard",
-    "slug": "mechanical-keyboard",
-    "price": 150,
-    "currency": "RUB",
-    "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 121,
-    "shortDescription": "Механическая клавиатура с RGB-подсветкой и плавным ходом клавиш.",
-    "description": "Переключатели Red, RGB-подсветка, алюминиевый корпус, USB-C, съёмный кабель, 100% Anti-Ghosting.",
-    "images": [
-      "https://raw.githubusercontent.com/Bymer25/estore-data/main/keyboard.png"
-    ],
-    "categories": ["Периферия"],
-    "tags": ["keyboard", "rgb", "gaming"],
-    "specs": {
-      "Тип переключателей": "Red (линейные)",
-      "Подсветка": "RGB",
-      "Интерфейс": "USB-C",
-      "Корпус": "Алюминий"
-    }
   }
 ]
+
