@@ -705,4 +705,74 @@
   {
     "id": "tb-007",
     "name": "Tablet Air",
-    "
+    "slug": "tablet-air",
+    "price": 650,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.5,
+    "reviewsCount": 78,
+    "shortDescription": "Легкий и мощный планшет для работы и творчества.",
+    "description": "11\" IPS 2.5K, 128 ГБ, 8 ГБ RAM, стилус в комплекте, клавиатура опционально, до 10 часов работы.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["tablet", "stylus", "lightweight", "productivity"],
+    "specs": {
+      "Экран": "11\" IPS 2560×1600",
+      "Память": "128 ГБ",
+      "RAM": "8 ГБ",
+      "Аккумулятор": "10 часов",
+      "Стилус": "В комплекте"
+    }
+  },
+  {
+    "id": "tb-029",
+    "name": "iPad Pro 12.9\"",
+    "slug": "ipad-pro-12-9",
+    "price": 1100,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 145,
+    "shortDescription": "Профессиональный планшет с дисплеем Liquid Retina XDR.",
+    "description": "12.9\" Mini-LED, чип M2, 256 ГБ, 8 ГБ RAM, поддержка Apple Pencil 2 и Magic Keyboard.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["ipad", "apple", "professional", "m2"],
+    "specs": {
+      "Экран": "12.9\" Liquid Retina XDR",
+      "Процессор": "Apple M2",
+      "Память": "256 ГБ",
+      "RAM": "8 ГБ",
+      "Аксессуары": "Apple Pencil 2, Magic Keyboard"
+    }
+  },
+  {
+    "id": "tb-030",
+    "name": "Samsung Tab S9",
+    "slug": "samsung-tab-s9",
+    "price": 800,
+    "currency": "RUB",
+    "inStock": true,
+    "rating": 4.6,
+    "reviewsCount": 92,
+    "shortDescription": "Мощный Android планшет с S-Pen и защитой от воды.",
+    "description": "11\" Dynamic AMOLED 2X, Snapdragon 8 Gen 2, 256 ГБ, 12 ГБ RAM, S-Pen в комплекте, IP68.",
+    "images": [
+      "https://raw.githubusercontent.com/Bymer25/estore-data/main/tablet.png"
+    ],
+    "categories": ["Планшеты"],
+    "tags": ["samsung", "android", "spen", "ip68"],
+    "specs": {
+      "Экран": "11\" Dynamic AMOLED 2X",
+      "Процессор": "Snapdragon 8 Gen 2",
+      "Память": "256 ГБ",
+      "RAM": "12 ГБ",
+      "Защита": "IP68",
+      "S-Pen": "В комплекте"
+    }
+  }
+]
